@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+    padding-top: 20px;
+}
+.logo{
+    font-size: 1.2em;
+    margin-left: 3%;
+    font-weight: bold;
+    padding: 10px 10px;
+
+}
+.menu ul{
+    display: flex;
+    gap: 20px;
+    padding: 20px 10px;
+
+
+}
+.menu ul li{
+    list-style: none;
+    font-size: 1.5em;
+    padding-right: 20px;
+
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+/* hero section */
+.hero{
+    display: flex;
+    margin: 5%;
+}
+.hero-section h3{
+font-size: 1.6em;
+padding: 10px;
+color: darkgoldenrod;
+}
+
+.hero-section h1{
+    font-size: 2.4em;
+    padding: 10px;
+    color: rgb(10, 9, 9);
+    }
+    .hero-section p{
+        font-size: 1em;
+        padding: 10px;
+        color: rgb(10, 9, 9);
+        }
+
+        .hero-section button{
+            font-size: 1em;
+            padding: 10px;
+            color: rgb(10, 9, 9);
+            margin: 6px 10px;
+        }
+         button.pro{
+            background-color: orange;
+            padding: 5px 10px;
+            font-size: 1.2em;
+            color: aliceblue;
+            border-radius: 10px;
+            border: 1px solid orange;
+        }
+        button.link{
+            background-color: transparent;
+            padding: 5px 10px;
+            font-size: 1.2em;
+            color: rgb(83, 94, 107);
+            border-radius: 10px;
+            border: 1px solid black;
+        }
+
+        .hero-image img{
+            margin-left: 30%;
+            margin-top: 3%;
+            width: 100px;
+           
+
+            border-radius: 50px;
+        }
+
+/* project section */
+.project h1{
+    text-align: center;
+    font-size: 3em;
+
+}
+.pro-section{
+    width: 650px;
+    height: 350px;
+    margin: 5% 23%;
+    border-radius: 20px;
+    display: flex;
+    box-shadow: 0px 0px 12px 1px;
+}
+.pro-pra h1{
+    font-size: 2em;
+    padding: 20px 20px;
+}
+.pro-pra p{
+    font-size: 10px;
+    padding: 7px 20px;
+}
+.pro-pra button{
+             background-color: rgb(121, 118, 114);
+            padding: 5px 10px;
+            font-size: 1.2em;
+            color: aliceblue;
+            border-radius: 10px;
+            border: 1px solid black;
+            margin-left: 10%;
+            margin-top: 4%;
+}
+.pro-image img{
+width: 300px;
+height: 350px;
+border-radius: 20px;
+margin: 1px 19%;
+}
+.project2{
+    width: 650px;
+    height: 350px;
+    margin: 10% 23%;
+    border-radius: 20px;
+    display: flex;
+    box-shadow: 0px 0px 12px 1px;
+
+}
+.pro-image2 img{
+    width: 300px;
+    height: 350px;
+    border-radius: 20px;
+    }
+    .pro-pra2 h1{
+        font-size: 2em;
+        padding: 20px 40px;
+        margin-left: 10%;
+        margin: 10%;
+    }
+    .pro-pra2 p{
+        font-size: 10px;
+        padding: 7px 40px;
+        margin-left: 10%;
+        margin-top: -10%;
+
+    }
+    .pro-pra2 button{
+        background-color: rgb(121, 118, 114);
+       padding: 5px 10px;
+       font-size: 1.2em;
+       color: aliceblue;
+       border-radius: 10px;
+       border: 1px solid black;
+       margin-left: 23%;
+       margin-top: 4%;
+}
+
+.header i{
+    font-size: 2em;
+    margin-left: 3%;
+    font-weight: bold;
+    padding: 10px 10px;
+    display: none;
+
+}
+footer{
+    text-align: center;
+    font-size: 1.2em;
+    background-color: whitesmoke;
+}
+
+@media screen and (max-width:390px) {
+    .menu ul{
+        display: none;
+       
+    }
+    .logo h1{
+        font-size: 1.4em;
+    }
+    .header i{
+        display: block;
+    }
+
+    .hero{
+        display: block;
+        margin: 15px;
+    }
+    .hero-image{
+        margin: 15px;
+    }
+
+    .project{
+
+    }
+    .pro-section{
+        margin:  30px;
+        border-radius: 20px;
+        display: block;
+        height: 650px;
+        width: 350px;
+    }
+
+    .pro-section h1{
+      padding: 0;
+      margin: 0;
+    }
+
+    .pro-image img{
+      
+        margin: 10% 0%;
+        
+    }
+    .project{
+        display: block;
+        margin: 0;
+    }
+        .pro-image2{
+            margin-top: 7%;
+        }
+
+        .project2{
+            margin:  30px;
+            border-radius: 20px;
+            display: block;
+            height: 650px;
+            width: 350px;
+        }
+       
+}
